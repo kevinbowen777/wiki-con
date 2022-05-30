@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wiki_con"
+version = "0.1.0"
+description = "A hypermodern Python project"
+authors = ["Kevin Bowen <kevin.bowen@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/kevinbowen777/wiki_con/
+respository = "https://github.com/kevinbowen777/wiki_con/
+keywords = ["hypermodern", "wiki_con"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
