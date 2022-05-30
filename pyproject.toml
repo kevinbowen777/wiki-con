@@ -12,6 +12,7 @@ keywords = ["hypermodern", "wiki_con"]
 [tool.poetry.dependencies]
 python = "^3.10"
 click = "^8.1.3"
+requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
 
