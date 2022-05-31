@@ -15,6 +15,12 @@ def mock_wikipedia_random_page(mocker):
     return mocker.patch("wiki_con.wikipedia.random_page")
 
 
+@pytest.mark.e2e
+def test_main_succeeds_in_production_env(runner):
+    result = runner.invoke(console.main)
+    assert result.exit_code == 0
+
+
 def test_main_succeeds(runner, mock_requests_get):
     result = runner.invoke(console.main)
     assert result.exit_code == 0
