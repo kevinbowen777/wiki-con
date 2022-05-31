@@ -1,6 +1,6 @@
 import textwrap
 
-import click
+import click  # type:ignore
 
 
 from . import __version__, wikipedia

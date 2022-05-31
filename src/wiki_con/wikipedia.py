@@ -1,5 +1,5 @@
-import click
-import requests
+import click  # type: ignore
+import requests  # type: ignore
 
 
 API_URL = "https://{language}.wikipedia.org/api/rest_v1/page/random/summary"
