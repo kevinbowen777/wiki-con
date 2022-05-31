@@ -4,7 +4,7 @@ import tempfile
 import nox
 
 
-nox.options.sessions = "lint", "safety", "tests"
+nox.options.sessions = "lint", "mypy", "safety", "tests"
 locations = "src", "tests", "noxfile.py"
 
 
@@ -13,6 +13,7 @@ def install_with_constraints(session, *args, **kwargs):
         session.run(
             "poetry",
             "export",
+            "--without-hashes",
             "--dev",
             "--format=requirements.txt",
             f"--output={requirements.name}",
@@ -56,6 +57,13 @@ def safety(session):
         )
         install_with_constraints(session, "safety")
         session.run("safety", "check", f"--file={requirements.name}", "--full-report")
+
+
+@nox.session(python=["3.10", "3.9", "3.8"])
+def mypy(session):
+    args = session.posargs or locations
+    install_with_constraints(session, "mypy")
+    session.run("mypy", *args)
 
 
 @nox.session(python=["3.10", "3.9", "3.8"])
