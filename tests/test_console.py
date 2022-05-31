@@ -17,6 +17,7 @@ def mock_wikipedia_random_page(mocker):
 
 @pytest.mark.e2e
 def test_main_succeeds_in_production_env(runner):
+    """Run 'nox -rs tests-3.10 -- -m e2e' for e2e test"""
     result = runner.invoke(console.main)
     assert result.exit_code == 0
 
