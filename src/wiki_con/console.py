@@ -3,7 +3,7 @@ import textwrap
 import click
 
 
-from .import __version__, wikipedia
+from . import __version__, wikipedia
 
 
 @click.command()
