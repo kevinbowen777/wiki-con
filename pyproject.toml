@@ -36,6 +36,7 @@ flake8-black = "^0.3.3"
 flake8-bugbear = "^22.4.25"
 flake8-import-order = "^0.18.1"
 safety = "^1.10.3"
+mypy = "^0.960"
 
 [tool.poetry.scripts]
 wiki_con = "wiki_con.console:main"
