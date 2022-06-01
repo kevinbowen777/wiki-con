@@ -44,6 +44,7 @@ flake8-annotations = "^2.9.0"
 flake8-docstrings = "^1.6.0"
 darglint = "^1.8.1"
 xdoctest = "^1.0.0"
+Sphinx = "^5.0.0"
 
 [tool.poetry.scripts]
 wiki_con = "wiki_con.console:main"
