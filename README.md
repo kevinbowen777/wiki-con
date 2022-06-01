@@ -1,5 +1,6 @@
 ## wiki_con - A console app that displays random facts using the Wikipedia API
 
+[![Tests](https://github.com/kevinbowen777/wiki_con/workflows/Tests/badge.svg)](https://github.com/kevinbowen777/wiki_con/actions?workflow=Tests)
 
 ### Installation
  - `git clone https://github.com/kevinbowen777/wiki_con.git`
