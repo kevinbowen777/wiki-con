@@ -9,7 +9,7 @@ from nox.sessions import Session
 
 package = "wiki_con"
 nox.options.sessions = "lint", "mypy", "safety", "tests"
-locations = "src", "tests", "noxfile.py", "docs.conf.py"
+locations = "src", "tests", "noxfile.py", "docs/conf.py"
 
 
 def install_with_constraints(session: Session, *args: str, **kwargs: Any) -> None:
