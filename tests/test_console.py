@@ -2,10 +2,10 @@
 from unittest.mock import Mock
 
 
-from click.testing import CliRunner
+from click.testing import CliRunner  # type: ignore
 import pytest
 from pytest_mock import MockFixture
-import requests
+import requests  # type: ignore
 
 from wiki_con import console
 

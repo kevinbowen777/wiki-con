@@ -1,7 +1,7 @@
 """Test cases for the wikipedia module."""
 from unittest.mock import Mock
 
-import click
+import click  # type: ignore
 import pytest
 
 from wiki_con import wikipedia
