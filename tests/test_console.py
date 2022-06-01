@@ -30,11 +30,7 @@ def test_main_succeeds(runner: CliRunner, mock_requests_get: Mock) -> None:
 
 @pytest.mark.e2e
 def test_main_succeeds_in_production_env(runner: CliRunner) -> None:
-    """It exits with a status code of zero (end-to-end).
-
-    Run command:
-        'nox -rs tests-3.10 -- -m e2e' for e2e test
-    """
+    """It exits with a status code of zero (end-to-end)."""
     result = runner.invoke(console.main)
     assert result.exit_code == 0
 
