@@ -17,7 +17,7 @@ using the `Wikipedia API <https://en.wikipedia.org/api/rest_v1/#/>`_.
 Installation
 ------------
 
-To install the Hypermodern Python project,
+To install the Hypermodern Python Console project,
 run this command in your terminal:
 
 .. code-block:: console
@@ -28,7 +28,7 @@ run this command in your terminal:
 Usage
 -----
 
-Hypermodern Python's usage looks like:
+wiki_con's usage looks like:
 
 .. code-block:: console
 
