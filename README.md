@@ -4,9 +4,7 @@
 [![PyPI](https://img.shields.io/pypi/v/wiki-con.svg)](https://pypi.org/project/wiki-con/)
 [![Read the Docs](https://readthedocs.org/projects/wiki-con/badge/)](https://wiki-con.readthedocs.io/)
 
-`wiki-con` is a simple CLI-based application using the Wikipedia API. The main
-focus of this repository is the implementation of various testing components
-and practices for the release and packaging of a Python project.
+`wiki-con` is a simple CLI-based application that displays random facts using the Wikipedia API. The main focus of this repository is the implementation of various testing components and practices for the release and packaging of a Python project.
 
 
 ### Installation
@@ -27,9 +25,15 @@ and practices for the release and packaging of a Python project.
      - nox
      - pytest-mock
  - Linting
-     - Flake8
      - Black
-     - Bandit
+     - Flake8
+       - flake8-annotations
+       - flake8-bandit
+       - flake8-black
+       - flake8-bugbear
+       - flake8-docstrings
+       - flake8-import-order
+       - darglint
      - Safety
      - pre-commit
  - Typing
