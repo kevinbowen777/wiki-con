@@ -11,7 +11,7 @@ show_missing = true
 [tool.poetry]
 name = "wiki-con"
 version = "0.1.1"
-description = "A hypermodern Python project"
+description = "A hypermodern Python console project"
 authors = ["Kevin Bowen <kevin.bowen@gmail.com>"]
 license = "MIT"
 readme = "README.md"

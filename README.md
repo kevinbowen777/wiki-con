@@ -11,7 +11,18 @@
 
 ---
 ## Features
- - TBD
+ - Testing
+     - pytest
+     - coverage
+     - nox
+     - pytest-mock
+ - Linting
+     - Flake8
+     - Black
+     - Bandit
+     - Safety
+     - pre-commit
+ - Typing
 
 ---
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/kevinbowen777/wiki-con/blob/master/LICENSE)
