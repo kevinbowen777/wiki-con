@@ -1,5 +1,5 @@
-The Hypermodern Python Console  Project
-=======================================
+The Hypermodern Python Console Project
+======================================
 
 .. toctree::
    :hidden:
@@ -9,7 +9,7 @@ The Hypermodern Python Console  Project
    reference
 
 The example project for the
-`Hypermodern Python Console <https://github.com/kevinbowen777/wiki_con>`_ GitHub repository.
+`Hypermodern Python Console <https://github.com/kevinbowen777/wiki-con>`_ GitHub repository.
 The command-line interface prints random facts to your console,
 using the `Wikipedia API <https://en.wikipedia.org/api/rest_v1/#/>`_.
 
@@ -22,7 +22,7 @@ run this command in your terminal:
 
 .. code-block:: console
 
-   $ pip install wiki_con
+   $ pip install wiki-con
 
 
 Usage

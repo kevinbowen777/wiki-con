@@ -3,21 +3,21 @@ source = ["src", "*/site-packages"]
 
 [tool.coverage.run]
 branch = true
-source= ["wiki_con"]
+source= ["wiki-con"]
 
 [tool.coverage.report]
 show_missing = true
 
 [tool.poetry]
-name = "wiki_con"
-version = "0.1.0"
+name = "wiki-con"
+version = "0.1.1"
 description = "A hypermodern Python project"
 authors = ["Kevin Bowen <kevin.bowen@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/kevinbowen777/wiki_con/"
-repository = "https://github.com/kevinbowen777/wiki_con/"
-keywords = ["hypermodern", "wiki_con"]
+homepage = "https://github.com/kevinbowen777/wiki-con/"
+repository = "https://github.com/kevinbowen777/wiki-con/"
+keywords = ["hypermodern", "wiki-con"]
 
 [tool.poetry.dependencies]
 python = "^3.10"

@@ -1,5 +1,5 @@
 """Sphinx configuration."""
-project = "wiki_con"
+project = "wiki-con"
 author = "Kevin Bowen"
 copyright = f"2022, {author}"
 extensions = [
