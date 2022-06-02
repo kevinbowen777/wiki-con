@@ -1,8 +1,8 @@
 ## wiki-con - A console app that displays random facts using the Wikipedia API
 
 [![Tests](https://github.com/kevinbowen777/wiki-con/workflows/Tests/badge.svg)](https://github.com/kevinbowen777/wiki-con/actions?workflow=Tests)
-
 [![PyPI](https://img.shields.io/pypi/v/wiki-con.svg)](https://pypi.org/project/wiki-con/)
+[![Read the Docs](https://readthedocs.org/projects/wiki-con/badge/)](https://wiki-con.readthedocs.io/)
 
 `wiki-con` is a simple CLI-based application using the Wikipedia API. The main
 focus of this repository is the implementation of various testing components
