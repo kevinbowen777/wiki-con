@@ -4,10 +4,20 @@
 
 [![PyPI](https://img.shields.io/pypi/v/wiki-con.svg)](https://pypi.org/project/wiki-con/)
 
+`wiki-con` is a simple CLI-based application using the Wikipedia API. The main
+focus of this repository is the implementation of various testing components
+and practices for the release and packaging of a Python project.
+
+
 ### Installation
  - `git clone https://github.com/kevinbowen777/wiki-con.git`
  - `cd wiki-con`
  - `poetry run wiki_con`
+
+---
+### Packages:
+ - TestPyPi: https://test.pypi.org/project/wiki-con/
+ - PyPi: https://pypi.org/project/wiki-con/
 
 ---
 ## Features
