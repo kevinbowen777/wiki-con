@@ -2,6 +2,8 @@
 
 [![Tests](https://github.com/kevinbowen777/wiki-con/workflows/Tests/badge.svg)](https://github.com/kevinbowen777/wiki-con/actions?workflow=Tests)
 
+[![PyPI](https://img.shields.io/pypi/v/wiki-con.svg)](https://pypi.org/project/wiki-con/)
+
 ### Installation
  - `git clone https://github.com/kevinbowen777/wiki-con.git`
  - `cd wiki-con`
