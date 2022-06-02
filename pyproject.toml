@@ -17,6 +17,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/kevinbowen777/wiki-con/"
 repository = "https://github.com/kevinbowen777/wiki-con/"
+documentation = "https://wiki-con.readthedocs.io/"
 keywords = ["hypermodern", "wiki-con"]
 
 [tool.poetry.dependencies]
